@@ -14,6 +14,8 @@ while True:
     if loteria == 1:
         print('Você escolheu Mega-sena')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
+        if quant_jogos == 0:
+            break
         quant_num = int(input('Quantos números deseja escolher? [6 a 15] '))
         while quant_num < 6 or quant_num > 15:
             print("Número inválido! Tente novamente.")
@@ -26,6 +28,8 @@ while True:
     if loteria == 2:
         print('Você escolheu Quina')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
+        if quant_jogos == 0:
+            break
         quant_num = int(input('Quantos números deseja escolher? [5 a 15] '))
         while quant_num < 5 or quant_num > 15:
             print("Número inválido! Tente novamente.")
@@ -38,6 +42,8 @@ while True:
     if loteria == 3:
         print('Você escolheu Lotofacil')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
+        if quant_jogos == 0:
+            break
         quant_num = int(input('Quantos números deseja escolher? [15 a 20] '))
         while quant_num < 15 or quant_num > 20:
             print("Número inválido! Tente novamente.")
