@@ -11,7 +11,7 @@ while True:
         break
     if loteria < 0 or loteria > 3:
         print('Opção inválida!')
-    if loteria == 1:
+    if loteria == 1: # Mega-sena
         print('Você escolheu Mega-sena')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
@@ -25,7 +25,7 @@ while True:
             num_unicos.sort()
             print(num_unicos)
         print()
-    if loteria == 2:
+    if loteria == 2: # Quina
         print('Você escolheu Quina')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
@@ -39,7 +39,7 @@ while True:
             num_unicos.sort()
             print(num_unicos)
         print()
-    if loteria == 3:
+    if loteria == 3: # Lotofacil
         print('Você escolheu Lotofacil')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
