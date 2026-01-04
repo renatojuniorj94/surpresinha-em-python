@@ -12,7 +12,7 @@ while True:
     if loteria < 0 or loteria > 3:
         print('Opção inválida!')
     if loteria == 1: # Mega-sena
-        print('Você escolheu Mega-sena')
+        print('Você escolheu \033[32mMega-sena\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
             break
