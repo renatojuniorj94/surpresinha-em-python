@@ -40,7 +40,7 @@ while True:
             print(num_unicos)
         print()
     if loteria == 3: # Lotofacil
-        print('Você escolheu Lotofacil')
+        print('Você escolheu \033[35mLotofacil\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
             break
