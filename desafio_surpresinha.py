@@ -6,7 +6,7 @@ while True:
     loteria = int(input('Qual loteria deseja apostar? (0 para parar)\n'
                         '\033[32mMega-sena [1]\n\033[m'
                         '\033[34mQuina [2]\n\033[m'
-                        'Lotofacil [3]\n'))
+                        '\033[35mLotofacil [3]\n\033[m'))
     if loteria == 0:
         break
     if loteria < 0 or loteria > 3:
