@@ -26,7 +26,7 @@ while True:
             print(num_unicos)
         print()
     if loteria == 2: # Quina
-        print('Você escolheu Quina')
+        print('Você escolheu \033[34mQuina\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
             break
