@@ -54,7 +54,7 @@ while True:
             num_unicos = random.sample(range(1, 26), quant_num)
             num_unicos.sort()
             print(num_unicos)
-        print('Boa sorte! 🍀🤞')
+        print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
     if loteria == 4: #Lotomania
         print('Você escolheu \033[38;2;255;165;0mLotomania\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
