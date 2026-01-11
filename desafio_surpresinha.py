@@ -64,6 +64,7 @@ while True:
             num_unicos = random.sample(range(1, 101), 50)
             num_unicos.sort()
             print(num_unicos)
+        print('Boa sorte! 🍀🤞')
 
 #Ordenando os números em ordem crescente
 #num_unicos.sort()
