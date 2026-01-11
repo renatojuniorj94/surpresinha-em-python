@@ -26,7 +26,7 @@ while True:
             num_unicos.sort()
             print(num_unicos)
         
-        print('Boa sorte! 🍀🤞')
+        print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
     if loteria == 2: # Quina
         print('Você escolheu \033[34mQuina\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
