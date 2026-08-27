@@ -14,5 +14,3 @@ def mega_sena():
             print(num_unicos)
 
         print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
-
-mega_sena()
