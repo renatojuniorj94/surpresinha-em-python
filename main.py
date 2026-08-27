@@ -1,5 +1,6 @@
 #versão 2.0
 import random
+import loterias
 
 quant_num = 0
 
