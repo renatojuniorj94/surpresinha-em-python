@@ -1,5 +1,6 @@
 #versão 2.0
 import random
+
 quant_num = 0
 
 while True:
