@@ -12,7 +12,7 @@ while True:
         break
     if loteria < 0 or loteria > 4:
         print('Opção inválida!')
-    if loteria == 1: # Mega-sena
+    if loteria == 1:  # Mega-sena
         print('Você escolheu \033[32mMega-sena\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
@@ -27,7 +27,7 @@ while True:
             print(num_unicos)
         
         print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
-    if loteria == 2: # Quina
+    if loteria == 2:  # Quina
         print('Você escolheu \033[34mQuina\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
@@ -41,7 +41,7 @@ while True:
             num_unicos.sort()
             print(num_unicos)
         print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
-    if loteria == 3: # Lotofacil
+    if loteria == 3:  # Lotofacil
         print('Você escolheu \033[35mLotofacil\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
@@ -55,7 +55,7 @@ while True:
             num_unicos.sort()
             print(num_unicos)
         print('\033[1;32;43mBoa sorte! 🍀🤞\033[m\n')
-    if loteria == 4: #Lotomania
+    if loteria == 4:  # Lotomania
         print('Você escolheu \033[38;2;255;165;0mLotomania\033[m')
         quant_jogos = int(input('Quantos jogos deseja fazer? '))
         if quant_jogos == 0:
